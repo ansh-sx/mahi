@@ -198,6 +198,13 @@ main {
   margin-top: 1rem;
 }
 
+.modal-content img {
+  max-width: 100%; /* Ensures the image doesn't exceed the modal width */
+  max-height: 80vh; /* Limits the image height to fit within the screen */
+  object-fit: contain; /* Ensures the image scales proportionally */
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
 .modal-btn {
   padding: 0.5rem 1rem;
   background: #1976d2;
