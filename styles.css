@@ -220,7 +220,7 @@ main {
 
 .close-btn {
   margin-top: 1rem;
-  background: #d32f2f;
+  background: #000000;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -230,5 +230,5 @@ main {
 }
 
 .close-btn:hover {
-  background: #b71c1c;
+  background: #;
 }
