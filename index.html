@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Mahi - Save a Precious Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="app-title">Save Mahi</h1>
+      <div class="toggle-buttons">
+        <button id="en-btn" class="circle-btn active">EN</button>
+        <button id="hi-btn" class="circle-btn">HI</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="content">
+      <h2>A Precious Little Life Needs You</h2>
+      <p id="text1">
+        Mahi, a 4-year-old boy from Sunderbani, J&K, has been diagnosed with Blood Cancer. He is undergoing 
+        treatment at the Paediatric Oncology Ward at DMC Ludhiana. His parents cannot bear the treatment expenses.
+      </p>
+      <p id="text2">
+        This is an appeal to extend your support. Collectively, we can make a difference and save this precious life.
+      </p>
+      <p id="text3" style="color: #0a1fff;">
+        Please avoid visiting their home or informing them directly. They are already under immense emotional pressure 
+        and may feel shame. Your contribution will be a discreet yet impactful way to support them.
+      </p>
+      <div class="qr-section">
+        <h3>Donate Here</h3>
+        <div class="qr-container">
+          <img id="qr-code" src="qr.png" alt="QR Code for Donation">
+        </div>
+        <p id="text4">Pay here or scan this QR code: <strong>8493041860</strong></p>
+      </div>
+      <div class="contact-section">
+        <h3>Contact Us</h3>
+        <div class="contact-buttons">
+          <a href="tel:+8493041860" class="contact-btn call-btn">
+            <img src="call-icon.png" alt="Call" class="icon"> Call
+          </a>
+          <a href="https://wa.me/8493041860" class="contact-btn whatsapp-btn">
+            <img src="whatsapp-icon.png" alt="WhatsApp" class="icon"> WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Help Mahi Initiative</p>
+  </footer>
+  <button id="donate-btn">Donate</button>
+  <div id="donate-modal" class="modal hidden">
+    <div class="modal-content">
+      <img src="share.png" alt="Share Image" id="share-image">
+      <div class="modal-buttons">
+        <a id="share-btn" href="#" class="modal-btn">Share on WhatsApp</a>
+        <a id="download-btn" href="share.png" download="Help_Mahi.png" class="modal-btn">Download</a>
+      </div>
+      <button id="close-modal" class="close-btn">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+  </html>
