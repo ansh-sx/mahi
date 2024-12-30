@@ -207,7 +207,7 @@ main {
 
 .modal-btn {
   padding: 0.5rem 1rem;
-  background: #1976d2;
+  background: #000000;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -215,12 +215,12 @@ main {
 }
 
 .modal-btn:hover {
-  background: #0d47a1;
+  background: #000000;
 }
 
 .close-btn {
   margin-top: 1rem;
-  background: #000000;
+  background: #0349fc;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
